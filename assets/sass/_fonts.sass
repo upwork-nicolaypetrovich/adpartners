@@ -1,0 +1,11 @@
+=font-connection($type, $weight, $style)
+    @font-face
+        font-family: 'WeissenhofGrotesk'
+        font-weight: $weight
+        font-style: $style
+        src: url("/adpartners.git/wp-content/themes/webdesignsuntheme/assets/fonts/weissenhof-grotesk/WeissenhofGrotesk-"+$type+".woff2") format("woff2"), url("/adpartners/wp-content/themes/webdesignsuntheme/assets/fonts/weissenhof-grotesk/WeissenhofGrotesk-"+$type+".ttf") format('truetype')
+
++font-connection(Light, 300, normal)
++font-connection(Regular, 400, normal)
++font-connection(Medium, 500, normal)
++font-connection(Bold, 700, normal)
